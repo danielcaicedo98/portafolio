@@ -11,3 +11,6 @@ body,
 canvas{
     touch-action: none;
 }
+.white-text {
+    color: white;
+}

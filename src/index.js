@@ -10,14 +10,19 @@ const root = createRoot(document.getElementById('root'));
 
 import Experience from "./Experience";
 import { Canvas } from "@react-three/fiber";
+import Info from "./Info";
+
 
 root.render(
-    <Canvas
-        camera={{ position: [2, 2, 5] }}
-    >
-        <Experience/>
-        
-    </Canvas>
+    <>     
+        <Info nombre="Daniel Caicedo" biografia="Estudiante de Sexto Semestre de Ingeniería de Sistemas de la Universidad del Valle" />    
+        <Canvas
+            camera={{ position: [2, 2, 5] }}
+        >
+            <Experience/>   
+        </Canvas>
+    </>
+    
     // <Experience
     //     // title={"Portfolio - Daniel Andres"}
     //     // info={"Web 3D Developer"}

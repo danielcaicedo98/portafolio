@@ -19,12 +19,16 @@ const Experience = (props) => {
     });
     return (
         <>    
+        
             <OrbitControls 
                 makeDefault
                 enablePan = {false}
                 />
             <ambientLight intensity={0.5} />
             <directionalLight position={[4, 6, 8]} intensity={2} />
+            
+            {/* Agrega el componente Info con nombre y biografía */}
+            
 
             <mesh  ref={boxRef} position={[-4, 0, 0]}>
                 <boxGeometry args={[1, 1, 1]} />
