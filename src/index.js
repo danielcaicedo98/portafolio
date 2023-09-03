@@ -15,11 +15,13 @@ import Info from "./Info";
 
 root.render(
     <>     
-        <Info nombre="Daniel Caicedo" biografia="Estudiante de Sexto Semestre de Ingeniería de Sistemas de la Universidad del Valle" />    
+            
         <Canvas
             camera={{ position: [2, 2, 5] }}
         >
+            
             <Experience/>   
+            <Info nombre="Daniel Caicedo" biografia="Estudiante de Sexto Semestre de Ingeniería de Sistemas de la Universidad del Valle" />
         </Canvas>
     </>
     
