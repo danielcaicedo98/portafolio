@@ -61,5 +61,5 @@ const Dragon = (props) => {
 
 }
 export default Dragon;
-useGLTF.preload("/assets/models/bee/scene.gltf");
+useGLTF.preload("/assets/models/dragon/scene.gltf");
 
