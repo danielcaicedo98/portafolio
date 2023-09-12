@@ -7,8 +7,8 @@ function Info(props) {
   return (
     <group>
       <Text
-        position={[0, 3, 0]}
-        fontSize={0.3}
+        position={[-5, 3, 0]}
+        fontSize={0.5}
         color="white"
         anchorX="center"
         anchorY="middle"
