@@ -16,8 +16,6 @@ const Figures = () => {
     });
     return(
         <>
-           
-
             <mesh  ref={boxRef} position={[-4, 0, 0]}>
                 <boxGeometry args={[1, 1, 1]} />
                 <meshPhysicalMaterial color="yellow" /> 

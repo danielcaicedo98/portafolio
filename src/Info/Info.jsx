@@ -1,31 +1,18 @@
 import React from 'react';
-import { Text } from '@react-three/drei';
+import "./info.css"
 
 function Info(props) {
   const { nombre, biografia } = props;
 
   return (
-    <group>
-      <Text
-        position={[-5, 3, 0]}
-        fontSize={0.5}
-        color="white"
-        anchorX="center"
-        anchorY="middle"
-      >
+    <div className="container-info">
+      <h1>
         {nombre}
-      </Text>
-
-      <Text
-        position={[0, 2, 0]}
-        fontSize={0.3}
-        color="white"
-        anchorX="center"
-        anchorY="top"
-      >
+      </h1>
+      <p>
         {biografia}
-      </Text>
-    </group>
+      </p>
+    </div>
   );
 }
 

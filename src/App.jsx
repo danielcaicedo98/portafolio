@@ -10,7 +10,11 @@ const App = () =>{
     }
 
     return(
-        <>                     
+        <>    
+            <Info 
+                nombre="Daniel Caicedo" 
+                biografia="Estudiante de Sexto Semestre de Ingeniería de Sistemas de la Universidad del Valle" 
+                />                
             <Canvas
                 camera={cameraSettings}>            
                 <Experience/>                   
