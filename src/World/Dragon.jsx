@@ -3,7 +3,7 @@ import { useAnimations, useGLTF, useTexture } from "@react-three/drei";
 
 const Dragon = (props) => {
     const group = useRef();
-    const dragonModel = useGLTF('/assets/models/Dragon/scene.gltf');
+    const dragonModel = useGLTF('/assets/models/dragon/scene.gltf');
     const {nodes,materials,animations} = dragonModel;
     const { actions } = useAnimations(animations, group);
 
@@ -41,8 +41,7 @@ const Dragon = (props) => {
                         <primitive object={nodes.GLTF_created_0_rootJoint} />
                         <skinnedMesh
                           name="Object_228"
-                          geometry={nodes.Object_228.geometry}
-                          
+                          geometry={nodes.Object_228.geometry}                                              
                           skeleton={nodes.Object_228.skeleton}
                         >
                             <meshStandardMaterial {...propsTexture} />
