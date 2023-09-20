@@ -43,6 +43,7 @@ const Dragon = (props) => {
                           name="Object_228"
                           geometry={nodes.Object_228.geometry}                                              
                           skeleton={nodes.Object_228.skeleton}
+                          castShadow
                         >
                             <meshStandardMaterial {...propsTexture} />
                         </skinnedMesh>

@@ -16,7 +16,9 @@ const App = () =>{
                 biografia="Estudiante de Sexto Semestre de Ingeniería de Sistemas de la Universidad del Valle" 
                 />                
             <Canvas
-                camera={cameraSettings}>            
+                camera={cameraSettings}
+                shadows    
+                >            
                 <Experience/>                   
             </Canvas>
         </>    
