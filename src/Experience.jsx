@@ -7,6 +7,7 @@ import Figures from "./World/Firgures";
 import Floor from "./World/Floor";
 import Lights from "./World/Lights";
 import Environments from "./World/Environments";
+import WelcomeText from "./World/WelcomeText";
 
 const Experience = (props) => {
 
@@ -25,8 +26,10 @@ const Experience = (props) => {
             <Floor 
                
             />
-            <Dragon position={[-2, -1, -2]}/>            
-            <Figures/>
+            <Dragon position={[-2, -2, -2]}/>            
+            <Figures />
+
+            <WelcomeText />
 
 
       </>
